@@ -1,0 +1,26 @@
+# note: 要求路径下必须有lists.txt、times.txt两文件
+
+# 数据路径
+LIO_PointCloudPath = /media/slam/E/Datas/LidarData/KITTI/data_odometry_velodyne/dataset/sequences/00
+
+# 处理方式
+LIO_SampleTime = 1
+LIO_systemDelay = 0
+
+LIO_KeyFramesDistance = 0.3
+LIO_KeyFramesAttitude = 30
+
+# LIO参数设置
+# 根据激光雷达的品牌和类型输入：
+LIO_N_SCAN = 64
+LIO_Horizon_SCAN = 4000
+LIO_ang_res_x = 0.09
+LIO_ang_res_y = 0.425396
+LIO_ang_bottom = 24.9
+LIO_groundScanInd = 50
+LIO_sensorMountAngle = 0.0
+
+Lidar2IMULeverArm = 0 0 0
+Lidar2IMURotation = 0 0 0
+
+LIO_END
